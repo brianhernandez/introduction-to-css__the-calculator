@@ -69,7 +69,7 @@ calculatorElement.addEventListener('click', function(event) {
       // If the button that was clicked was an operator button...
       if ( event.target.value === "+" || event.target.value === "-" ||
         event.target.value === "/" || event.target.value === "*") {
-        // ...set the screenDisplayText string to the currnt input element
+        // ...set the screenDisplayText string to the current input element
         // display value
         screenDisplayText = inputDisplayElement.value;
         // ...else...
